@@ -1,0 +1,236 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Chevrolet Spark",
+      "descriptions": "",
+      "photo": "",
+      "category": 1,
+      "price_for_one": 1750000,
+      "date_of_creation": "2023-12-05T18:31:11.693Z",
+      "last_modified_date": "2023-12-05T18:31:11.693Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Citroen C2",
+      "descriptions": "",
+      "photo": "",
+      "category": 1,
+      "price_for_one": 750000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Peugeot 107",
+      "descriptions": "",
+      "photo": "",
+      "category": 1,
+      "price_for_one": 650000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Volkswagen Polo",
+      "descriptions": "",
+      "photo": "",
+      "category": 2,
+      "price_for_one": 1250000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Renault Logan",
+      "descriptions": "",
+      "photo": "",
+      "category": 2,
+      "price_for_one": 1350000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Ford Fiesta",
+      "descriptions": "",
+      "photo": "",
+      "category": 2,
+      "price_for_one": 1020000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "Volkswagen Golf",
+      "descriptions": "",
+      "photo": "",
+      "category": 3,
+      "price_for_one": 1500000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "name": "Honda Civic",
+      "descriptions": "",
+      "photo": "",
+      "category": 3,
+      "price_for_one": 1350000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "name": "Toyota Corolla",
+      "descriptions": "",
+      "photo": "",
+      "category": 3,
+      "price_for_one": 2200000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "Infiniti Q50",
+      "descriptions": "",
+      "photo": "",
+      "category": 4,
+      "price_for_one": 2500000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "name": "Mazda 6",
+      "descriptions": "",
+      "photo": "",
+      "category": 4,
+      "price_for_one": 3250000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 12,
+    "fields": {
+      "name": "Audi A4",
+      "descriptions": "",
+      "photo": "",
+      "category": 4,
+      "price_for_one": 3500000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 13,
+    "fields": {
+      "name": "Nissan Teana",
+      "descriptions": "",
+      "photo": "",
+      "category": 5,
+      "price_for_one": 1300000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 14,
+    "fields": {
+      "name": "Lexus GS",
+      "descriptions": "",
+      "photo": "",
+      "category": 5,
+      "price_for_one": 3400000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 15,
+    "fields": {
+      "name": "Toyota Camry",
+      "descriptions": "",
+      "photo": "",
+      "category": 5,
+      "price_for_one": 4000000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 16,
+    "fields": {
+      "name": "Mercedes-Benz S-класса",
+      "descriptions": "",
+      "photo": "",
+      "category": 6,
+      "price_for_one": 22000000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 17,
+    "fields": {
+      "name": "Audi A8",
+      "descriptions": "",
+      "photo": "",
+      "category": 6,
+      "price_for_one": 20000000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 18,
+    "fields": {
+      "name": " BMW 7 серия",
+      "descriptions": "",
+      "photo": "",
+      "category": 6,
+      "price_for_one": 19500000,
+      "date_of_creation": "2023-12-05T18:31:27.955Z",
+      "last_modified_date": "2023-12-05T18:31:27.955Z"
+    }
+  }
+]
