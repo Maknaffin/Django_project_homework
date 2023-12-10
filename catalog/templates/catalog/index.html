@@ -5,12 +5,14 @@
         {% for object in object_list %}
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
+                    <img src="/media/{{ object.photo }}"
+                         alt="Card image cap">
                     <div class="card-body">
-                        <h4>{{ object.name }}</h4>
-                        <p class="card-text">{{ object.descriptions|truncatechars:100 }}</p>
+                        <h5>{{ object.name }}</h5>
+                        <p class="card-text">{{ object.descriptions|truncatechars:100 }}
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <a href="{% url 'catalog:catalog_auto' object.pk %}" type="button" class="btn btn-sm btn-outline-secondary">Перейти</a>
+                                <a href="{% url 'catalog:auto_info' object.pk %}" type="button" class="btn btn-sm btn-outline-secondary">Перейти</a>
                             </div>
                         </div>
                     </div>

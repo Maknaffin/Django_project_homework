@@ -1,23 +1,14 @@
 from django.shortcuts import render
 
-from catalog.models import Category, Product
+from catalog.models import Product
 
 
 def index(request):
     context = {
-        'object_list': Category.objects.all(),
+        'object_list': Product.objects.all(),
         'title': 'ВЫБЕРИТЕ ДЛЯ СЕБЯ',
     }
     return render(request, 'catalog/index.html', context)
-
-
-def catalog_auto(request, pk):
-    category_item = Category.objects.get(pk=pk)
-    context = {
-        'object_list': Product.objects.filter(category_id=pk),
-        'title': f'Автомобили {category_item.name}а',
-    }
-    return render(request, 'catalog/catalog_auto.html', context)
 
 
 def auto_info(request, pk):
@@ -27,6 +18,14 @@ def auto_info(request, pk):
         'title': f'Подробнее о {category_item.name}'
     }
     return render(request, 'catalog/auto_info.html', context)
+
+# def catalog_auto(request, pk):
+#     category_item = Category.objects.get(pk=pk)
+#     context = {
+#         'object_list': Product.objects.filter(category_id=pk),
+#         'title': f'Автомобили {category_item.name}а',
+#     }
+#     return render(request, 'catalog/catalog_auto.html', context)
 
 
 # def contact(request):
