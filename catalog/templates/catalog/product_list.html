@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-{#                <img src="/media/{{ object.photo }}"#}
+                {#                <img src="/media/{{ object.photo }}"#}
                 <img src="{{ object.photo|mymedia }}"
                      alt="Card image cap">
                 <div class="card-body">
@@ -19,6 +19,8 @@
                     <h3>{{ object.price_for_one }} руб.</h3>
                     <h5 class="card-title">О модели</h5>
                     <p class="card-text">{{ object.descriptions }}</p>
+                    <p class="card-text" style="color: gray">Версия модели: {{ active_version_number }}</p>
+                    <p class="card-text" style="color: gray">{{ active_version_name }}</p>
                 </div>
             </div>
         </div>

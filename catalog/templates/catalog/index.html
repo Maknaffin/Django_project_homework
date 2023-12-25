@@ -13,8 +13,6 @@
                     <div class="card-body">
                         <h5>{{ object.name }}</h5>
                         <p class="card-text">{{ object.descriptions|truncatechars:100 }}
-                        <p class="card-text" style="color: gray">Версия модели: {{ active_version_number }}</p>
-                        <p class="card-text" style="color: gray">{{ active_version_name }}</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <a href="{% url 'catalog:auto_info' object.pk %}" type="button"

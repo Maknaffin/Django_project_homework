@@ -48,29 +48,40 @@ class ProductListView(ListView):
         context_data['object'] = product_item
         context_data['title'] = f'Подробнее о {product_item.name}'
 
-        return context_data
-
-
-class ProductDetailView(DetailView):
-    # просмотр выбранного продукта
-    model = Product
-    extra_context = {'title': 'О продукте', }
-
-    def get_context_data(self, *args, **kwargs):
-        context_data = super().get_context_data(*args, **kwargs)
-        product_item = Product.objects.get(pk=self.kwargs.get('pk'))
         context_data['category_pk'] = product_item.category.pk
 
         version_item = Version.objects.filter(product=product_item.pk, is_active=True).first()
 
         if version_item:
-            context_data['active_version_number'] = version_item.number
-            context_data['active_version_name'] = version_item.name
+            context_data['active_version_number'] = version_item.num_version
+            context_data['active_version_name'] = version_item.name_version
         else:
             context_data['active_version_number'] = 'отсутствует'
             context_data['active_version_name'] = '-'
 
         return context_data
+
+
+# class ProductDetailView(DetailView):
+#     # просмотр выбранного продукта
+#     model = Product
+#     extra_context = {'title': 'О продукте', }
+#
+#     def get_context_data(self, *args, **kwargs):
+#         context_data = super().get_context_data(*args, **kwargs)
+#         product_item = Product.objects.get(pk=self.kwargs.get('pk'))
+#         context_data['category_pk'] = product_item.category.pk
+#
+#         version_item = Version.objects.filter(product=product_item.pk, is_active=True).first()
+#
+#         if version_item:
+#             context_data['active_version_number'] = version_item.num_version
+#             context_data['active_version_name'] = version_item.name_version
+#         else:
+#             context_data['active_version_number'] = 'отсутствует'
+#             context_data['active_version_name'] = '-'
+#
+#         return context_data
 
 
 class ProductCreateView(CreateView):
