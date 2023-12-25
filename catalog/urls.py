@@ -12,7 +12,6 @@ urlpatterns = [
     path('', IndexView.as_view(), name='index'),
     # path('auto_info/<int:pk>/', auto_info, name='auto_info'),
     path('auto_info/<int:pk>/', ProductListView.as_view(), name='auto_info'),
-    # path('detail/<int:pk>/', ProductDetailView.as_view(), name='product_detail'),
     path('create/', ProductCreateView.as_view(), name='product_create'),
     path('update/<int:pk>/', ProductUpdateView.as_view(), name='product_update'),
 
