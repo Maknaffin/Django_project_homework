@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4cc942c8-315d-453c-81ef-65590db12746" name="Changes" comment="Выполнил задание 21.1">
+      <change afterPath="$PROJECT_DIR$/catalog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/product_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2YqEVwISm0j0dr4bXzteRgJYnI9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Timofey/PycharmProjects/Django_project_homework/catalog/templates/catalog&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Timofey\PycharmProjects\Django_project_homework\catalog\templates\catalog" />
+      <recent name="C:\Users\Timofey\PycharmProjects\Homework_19.2\catalog\management\commands" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Timofey\PycharmProjects\Homework_19.2\static\css" />
+      <recent name="C:\Users\Timofey\PycharmProjects\Homework_19.2\static\js" />
+      <recent name="C:\Users\Timofey\PycharmProjects\Homework_19.2\static" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cc942c8-315d-453c-81ef-65590db12746" name="Changes" comment="" />
+      <created>1701244737126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701244737126</updated>
+      <workItem from="1701244739371" duration="10667000" />
+      <workItem from="1701323670354" duration="53000" />
+      <workItem from="1701557994980" duration="14586000" />
+      <workItem from="1701772304504" duration="13444000" />
+      <workItem from="1701813166208" duration="428000" />
+      <workItem from="1701813968025" duration="2105000" />
+      <workItem from="1701844701975" duration="1709000" />
+      <workItem from="1701857997891" duration="197000" />
+      <workItem from="1701898279396" duration="87000" />
+      <workItem from="1701898377940" duration="5112000" />
+      <workItem from="1701904456626" duration="1883000" />
+      <workItem from="1701906945201" duration="611000" />
+      <workItem from="1702136724135" duration="27518000" />
+      <workItem from="1702196659687" duration="5386000" />
+      <workItem from="1702960298577" duration="30135000" />
+      <workItem from="1703019985312" duration="1098000" />
+      <workItem from="1703115989603" duration="2657000" />
+      <workItem from="1703329098620" duration="13714000" />
+      <workItem from="1703416566706" duration="3208000" />
+      <workItem from="1703532426773" duration="8350000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1701812641513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701812641513</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1702168303319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702168303319</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Исправил вывод товаров на главной странице.&#10;Реализовал кастомный фильтр и тег для преобразования пути к медиафайлу">
+      <option name="closed" value="true" />
+      <created>1702201430213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702201430213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавлено фото">
+      <option name="closed" value="true" />
+      <created>1702201667167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702201667167</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Выполнил задание 21.1">
+      <option name="closed" value="true" />
+      <created>1703020232108</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703020232108</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Выполнил задание 21.1">
+      <option name="closed" value="true" />
+      <created>1703020838316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703020838316</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Исправил вывод товаров на главной странице.&#10;Реализовал кастомный фильтр и тег для преобразования пути к медиафайлу" />
+    <MESSAGE value="Добавлено фото" />
+    <MESSAGE value="Выполнил задание 21.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил задание 21.1" />
+  </component>
+</project>

@@ -1,6 +1,9 @@
 {% extends 'catalog/base.html' %}
 
 {% block content %}
+    <div class="col-12 mb-5">
+        <a class="btn btn-outline-primary" href="{% url 'catalog:product_create' %}">Добавить автомобиль</a>
+    </div>
     <div class="row">
         {% for object in object_list %}
             <div class="col-md-4">
@@ -10,9 +13,14 @@
                     <div class="card-body">
                         <h5>{{ object.name }}</h5>
                         <p class="card-text">{{ object.descriptions|truncatechars:100 }}
+                        <p class="card-text" style="color: gray">Версия модели: {{ active_version_number }}</p>
+                        <p class="card-text" style="color: gray">{{ active_version_name }}</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <a href="{% url 'catalog:auto_info' object.pk %}" type="button" class="btn btn-sm btn-outline-secondary">Перейти</a>
+                                <a href="{% url 'catalog:auto_info' object.pk %}" type="button"
+                                   class="btn btn-sm btn-outline-secondary">Перейти</a>
+                                <a href="{% url 'catalog:product_update' object.pk %}" type="button"
+                                   class="btn btn-sm btn-outline-secondary">Изменить</a>
                             </div>
                         </div>
                     </div>
