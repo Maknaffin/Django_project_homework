@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
                     <h4 class="text-white">О нас</h4>
-                    <p class="text-muted">В компании работает более 6 000 человек. Мы предлагаем комплексные
+                    <p class="text-white">В компании работает более 6 000 человек. Мы предлагаем комплексные
                         решения, основанные на многолетнем опыте в автомобильном бизнесе и IT–технологиях, является
                         хранителем своего бренда и работает на протяжении всего жизненного цикла автомобиля: от запуска
                         новых продуктов до продаж подержанных автомобилей и послепродажного обслуживания. Автохолдинг
@@ -29,10 +29,17 @@
                         сетью, обеспечивает эффективный, хорошо финансируемый и ориентированный на клиента бизнес.</p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Главная</h4>
+                    <h4 class="text-white">Меню</h4>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Контакты</a></li>
+                        <li><a href="{% url 'catalog:index' %}" class="text-white">Главная</a></li>
                         <li><a href="{% url 'catalog:blog_list' %}" class="text-white">Блог</a></li>
+                        {% if user.is_authenticated %}
+                            <li><a href="{% url 'users:profile' %}" class="text-white">Профиль</a></li>
+                            <li><a href="{% url 'users:logout' %}" class="text-white">Выйти</a></li>
+                        {% else %}
+                            <li><a href="{% url 'users:login' %}" class="text-white">Войти</a></li>
+                            <li><a href="{% url 'users:register' %}" class="text-white">Регистрация</a></li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>
