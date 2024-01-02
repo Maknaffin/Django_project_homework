@@ -2,7 +2,9 @@
 
 {% block content %}
     <div class="col-12 mb-5">
-        <a class="btn btn-outline-primary" href="{% url 'catalog:product_create' %}">Добавить автомобиль</a>
+        {% if perms.catalog.add_product %}
+            <a class="btn btn-outline-primary" href="{% url 'catalog:product_create' %}">Добавить автомобиль</a>
+        {% endif %}
     </div>
     <div class="row">
         {% for object in object_list %}
@@ -19,8 +21,10 @@
                             <div class="btn-group">
                                 <a href="{% url 'catalog:auto_info' object.pk %}" type="button"
                                    class="btn btn-sm btn-outline-secondary">Перейти</a>
-                                <a href="{% url 'catalog:product_update' object.pk %}" type="button"
-                                   class="btn btn-sm btn-outline-secondary">Изменить</a>
+                                {% if perms.catalog.change_product %}
+                                    <a href="{% url 'catalog:product_update' object.pk %}" type="button"
+                                       class="btn btn-sm btn-outline-secondary">Изменить</a>
+                                {% endif %}
                             </div>
                         </div>
                     </div>

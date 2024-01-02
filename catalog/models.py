@@ -12,7 +12,7 @@ class Product(models.Model):
     price_for_one = models.IntegerField(verbose_name='Цена за штуку')
     date_of_creation = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')
     last_modified_date = models.DateTimeField(auto_now=True, verbose_name='Дата последнего изменения')
-
+    is_published = models.BooleanField(default=False, verbose_name='Признак публикации')
     owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, **NULLABLE, verbose_name='Владелец')
 
     def __str__(self):
