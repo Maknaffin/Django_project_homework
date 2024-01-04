@@ -141,3 +141,10 @@ EMAIL_PORT = 465
 EMAIL_HOST_USER = 'tima.khlystov99@yandex.ru'
 EMAIL_HOST_PASSWORD = 'hwtpumlrubhnidlz'
 EMAIL_USE_SSL = True
+
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.redis.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379",
+    }
+}
