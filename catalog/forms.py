@@ -38,3 +38,9 @@ class VersionForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Version
         fields = '__all__'
+
+
+class ModeratorForm(StyleFormMixin, forms.ModelForm):
+    class Meta:
+        model = Product
+        exclude = ('name', 'photo', 'price_for_one', 'date_of_creation', 'last_modified_date', 'owner')

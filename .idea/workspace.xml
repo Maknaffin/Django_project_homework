@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc942c8-315d-453c-81ef-65590db12746" name="Changes" comment="Выполнил задание 23.1">
+    <list default="true" id="4cc942c8-315d-453c-81ef-65590db12746" name="Changes" comment="Добавил верификацию почты и функционал по сбросу пароля">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +104,11 @@
       <workItem from="1704225800123" duration="264000" />
       <workItem from="1704226145454" duration="3761000" />
       <workItem from="1704297729296" duration="8226000" />
-      <workItem from="1704394232118" duration="3545000" />
+      <workItem from="1704394232118" duration="5482000" />
+      <workItem from="1704436380029" duration="590000" />
+      <workItem from="1704484415310" duration="589000" />
+      <workItem from="1704763491835" duration="4494000" />
+      <workItem from="1704847324519" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -214,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704199266339</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Добавил верификацию почты и функционал по сбросу пароля">
+      <option name="closed" value="true" />
+      <created>1704398007281</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704398007281</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +236,7 @@
     <MESSAGE value="Выполнил задание 22.1" />
     <MESSAGE value="Выполнил задание 22.2" />
     <MESSAGE value="Выполнил задание 23.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнил задание 23.1" />
+    <MESSAGE value="Добавил верификацию почты и функционал по сбросу пароля" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил верификацию почты и функционал по сбросу пароля" />
   </component>
 </project>

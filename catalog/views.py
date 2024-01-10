@@ -9,7 +9,7 @@ from django.views.generic import ListView, CreateView, DetailView, UpdateView, D
 from pytils.translit import slugify
 from django.core.mail import send_mail
 
-from catalog.forms import ProductForm, VersionForm
+from catalog.forms import ProductForm, VersionForm, ModeratorForm
 from catalog.models import Product, Blog, Version
 
 
@@ -115,6 +115,26 @@ class ProductUpdateView(LoginRequiredMixin, PermissionRequiredMixin, UpdateView)
             formset.instance = self.object
             formset.save()
         return super().form_valid(form)
+
+    def get_form_class(self):
+        if self.request.user.is_staff and self.request.user.groups.filter(
+                name='Модератор').exists():
+            return ModeratorForm
+        return ProductForm
+
+    def test_func(self):
+        _user = self.request.user
+        _instance: Product = self.get_object()
+        custom_perms: tuple = (
+            'catalog_change.set_is_published',
+            'catalog_change.set_category',
+            'catalog_change.set_descriptions',
+        )
+        if _user.is_superuser or _user == _instance.owner:
+            return True
+        elif _user.groups.filter(name='Модератор') and _user.has_perms(custom_perms):
+            return True
+        return self.handle_no_permission()
 
 
 class BlogCreateView(LoginRequiredMixin, CreateView):
