@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc942c8-315d-453c-81ef-65590db12746" name="Changes" comment="Добавлена форма для модератора и контроллер для изменения продукта">
+    <list default="true" id="4cc942c8-315d-453c-81ef-65590db12746" name="Changes" comment="Выполнил задание 23.2">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <workItem from="1704484415310" duration="589000" />
       <workItem from="1704763491835" duration="4494000" />
       <workItem from="1704847324519" duration="1457000" />
-      <workItem from="1704921823541" duration="9536000" />
+      <workItem from="1704921823541" duration="10839000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -234,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704847874101</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Выполнил задание 23.2">
+      <option name="closed" value="true" />
+      <created>1704936575613</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704936575613</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +259,7 @@
     <MESSAGE value="Выполнил задание 23.1" />
     <MESSAGE value="Добавил верификацию почты и функционал по сбросу пароля" />
     <MESSAGE value="Добавлена форма для модератора и контроллер для изменения продукта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена форма для модератора и контроллер для изменения продукта" />
+    <MESSAGE value="Выполнил задание 23.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил задание 23.2" />
   </component>
 </project>
