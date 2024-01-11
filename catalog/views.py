@@ -8,7 +8,6 @@ from django.urls import reverse_lazy, reverse
 from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView, TemplateView
 from pytils.translit import slugify
 from django.core.mail import send_mail
-
 from catalog.forms import ProductForm, VersionForm, ModeratorForm
 from catalog.models import Product, Blog, Version
 
