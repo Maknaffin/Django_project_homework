@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
+from django.core.cache import cache
 from django.forms import inlineformset_factory
 from django.http import Http404
 from django.shortcuts import render
@@ -10,6 +11,7 @@ from pytils.translit import slugify
 from django.core.mail import send_mail
 from catalog.forms import ProductForm, VersionForm, ModeratorForm
 from catalog.models import Product, Blog, Version
+from catalog.services import get_cached_objects_for_products
 
 
 # def index(request):
@@ -28,7 +30,7 @@ class IndexView(LoginRequiredMixin, TemplateView):
 
     def get_context_data(self, **kwargs):
         context_data = super().get_context_data(**kwargs)
-        context_data['object_list'] = Product.objects.all()
+        context_data['object_list'] = get_cached_objects_for_products()
         return context_data
 
 
